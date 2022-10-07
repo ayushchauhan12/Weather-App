@@ -7,14 +7,14 @@ body {
   background: #222;
   font-family: "Open Sans", sans-serif;
   background-image: url("https://source.unsplash.com/1600x900/?landscape");
-  font-size: 120%;
+  font-size: 115%;
 }
 
 
 .card {
   background: #000000c4;
-  padding: 2em;
-  color: white;
+  padding: 3em;
+  color: lightyellow;
   border-radius: 30px;
   width: 100%;
   max-width: 420px;
@@ -28,13 +28,13 @@ body {
 }
 
 button {
-  margin: 0.5em;
+  margin: 0.6em;
   border-radius: 50%;
   border: none;
-  height: 43px;
-  width: 43px;
+  height: 40px;
+  width: 40px;
   outline: none;
-  color: white;
+  color: lightblue;
   background: #7c7c7c2b;
   cursor: pointer;
   transition: 0.2s ease-in-out;
@@ -59,7 +59,7 @@ button:hover {
 
 h1.temp{
   margin: 0;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.5em;
 }
 
 .flex{
@@ -70,7 +70,7 @@ h1.temp{
 
 .description{
   text-transform: capitalize;
-  margin-left: 8px;
+  margin-left: 10px;
 }
 
 .weather.loading{
@@ -85,5 +85,5 @@ h1.temp{
   color: white;
   position: absolute;
   top: 0;
-  left: 20px;
+  left: 22px;
 }
